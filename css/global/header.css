@@ -35,16 +35,10 @@
 }
 
 @media (max-width: 800px) {
-  /*   .header {
-    display: block;
-    margin-bottom: 20px;
-    text-con: center;
-  } */
   .header-menu {
     gap: 20px;
   }
   .header-menu a {
-    /* justify-content: center; */
     padding: 12px 16px;
     border-radius: 4px;
   }

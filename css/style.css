@@ -1,6 +1,12 @@
 @import url(./global/global.css);
-@import url(./tipografia/tipografia.css);
-@import url(./cores/cores.css);
+@import url(./utilidades/tipografia.css);
+@import url(./utilidades/cores.css);
 
 @import url(./global/header.css);
 @import url(./global/footer.css);
+
+/*Utilidades*/
+@import url(./utilidades/componentes.css);
+
+/*Home*/
+@import url(./home/home.css);

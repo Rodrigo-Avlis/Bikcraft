@@ -1,8 +1,0 @@
-.header-menu a {
-  font-size: 18px;
-}
-@media (max-width: 600px) {
-  .header-menu a {
-    font-size: 14px;
-  }
-}
