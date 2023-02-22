@@ -102,3 +102,9 @@ p {
 .introducao-conteudo p {
   color: var(--cor-5);
 }
+
+.bicicletas h2,
+h3,
+span {
+  color: var(--cor-12);
+}

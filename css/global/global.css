@@ -25,5 +25,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+[src$=".jpg"] {
   border-radius: 4px;
 }

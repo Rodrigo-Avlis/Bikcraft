@@ -54,7 +54,7 @@
   font: 600 4rem/1.125 "Poppins", sans-serif;
 }
 
-/* @media (max-width: 1200px) {
+@media (max-width: 1200px) {
   .font-1-xxl {
     font-size: 3rem;
   }
@@ -72,9 +72,9 @@
   .font-2-xl {
     font-size: 1.5rem;
   }
-} */
+}
 
-.header-menu a {
+/* .header-menu a {
   font: 400 1.125rem "poppins", sans-serif;
 }
 @media (max-width: 600px) {
@@ -89,3 +89,4 @@
 .introducao-conteudo p {
   font: 400 1.5rem/1.5 "roboto", sans-serif;
 }
+ */
