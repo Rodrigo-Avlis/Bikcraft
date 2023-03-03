@@ -74,15 +74,9 @@
   color: var(--cor-p5);
 }
 
+/*Home-Header*/
 .header-bg {
   background-color: var(--cor-12);
-}
-h1,
-h2,
-h3,
-a,
-p {
-  color: var(--cor-0);
 }
 .header-menu a:after {
   background-color: var(--cor-0);
@@ -96,15 +90,26 @@ p {
   }
 }
 
+/*Home-Introdução*/
 .introducao-bg {
   background-color: var(--cor-12);
+  box-shadow: inset 0 -120px var(--cor-0);
 }
-.introducao-conteudo p {
-  color: var(--cor-5);
+@media (max-width: 800px) {
+  .introducao-bg {
+    background-color: #111111;
+    box-shadow: inset 0 -60px #ffffff;
+  }
 }
+/*Home-Bicicletas*/
 
-.bicicletas h2,
-h3,
-span {
-  color: var(--cor-12);
+/*Home-Tecnologia*/
+.tecnologia-bg {
+  background: var(--cor-11);
+  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+@media (max-width: 800px) {
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
 }

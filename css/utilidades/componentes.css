@@ -1,3 +1,19 @@
+.container {
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+.container2 {
+  max-width: 1400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
 .botao {
   display: inline-block;
   background: linear-gradient(#ffbf00, #f2a50c);
@@ -16,9 +32,6 @@
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
-.detalhe {
-  color: #ffbb00;
-}
 .link {
   display: inline-block;
   color: var(--cor-p1);
@@ -31,4 +44,7 @@
   width: 100%;
   height: 4px;
   background: currentColor;
+}
+.link:hover {
+  color: var(--cor-0);
 }
