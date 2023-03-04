@@ -1,0 +1,34 @@
+.depoimento-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  overflow: hidden;
+}
+.depoimento-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px;
+}
+.depoimento-conteudo {
+  align-self: end;
+  padding: 40px 40px 80px 80px;
+}
+.depoimento-conteudo p {
+  margin-bottom: 32px;
+  font-style: italic;
+  max-width: 32ch;
+}
+@media (max-width: 800px) {
+  .depoimento-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .depoimento-img {
+    max-height: 200px;
+  }
+  .depoimento-conteudo {
+    padding: 40px 20px;
+    margin: auto;
+    text-align: center;
+  }
+}
