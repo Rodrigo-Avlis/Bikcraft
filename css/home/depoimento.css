@@ -17,7 +17,23 @@
   margin-bottom: 32px;
   font-style: italic;
   max-width: 32ch;
+  position: relative;
 }
+.depoimento-conteudo p::before {
+  content: "“";
+  left: -70px;
+  top: -20px;
+}
+.depoimento-conteudo p::after {
+  content: "”";
+}
+.depoimento-conteudo p::before,
+.depoimento-conteudo p::after {
+  font-size: 5rem;
+  color: var(--cor-p2);
+  position: absolute;
+}
+
 @media (max-width: 800px) {
   .depoimento-container {
     display: grid;
@@ -30,5 +46,13 @@
     padding: 40px 20px;
     margin: auto;
     text-align: center;
+  }
+  .depoimento-conteudo p::before,
+  .depoimento-conteudo p::after {
+    font-size: 3rem;
+  }
+  .depoimento-conteudo p::before {
+    content: "“";
+    left: -40px;
   }
 }

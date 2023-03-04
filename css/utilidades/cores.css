@@ -120,3 +120,8 @@
 .depoimento-bg {
   background-color: var(--cor-p1);
 }
+
+/*Home-Seguro*/
+.seguros-bg {
+  background-color: var(--cor-11);
+}

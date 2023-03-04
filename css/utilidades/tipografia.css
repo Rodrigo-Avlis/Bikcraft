@@ -53,7 +53,9 @@
 .font-1-xxl {
   font: 600 4rem/1.125 "Poppins", sans-serif;
 }
-
+.font-3-xl-b {
+  font: 900 2rem/1.5 "Merriweather", serif;
+}
 @media (max-width: 1200px) {
   .font-1-xxl {
     font-size: 3rem;
@@ -70,6 +72,9 @@
   }
   .font-1-xl,
   .font-2-xl {
+    font-size: 1.5rem;
+  }
+  .font-3-xl-b {
     font-size: 1.5rem;
   }
 }
