@@ -101,6 +101,7 @@
     box-shadow: inset 0 -60px #ffffff;
   }
 }
+
 /*Home-Bicicletas*/
 
 /*Home-Tecnologia*/
@@ -124,4 +125,7 @@
 /*Home-Seguro*/
 .seguros-bg {
   background-color: var(--cor-11);
+}
+.seguros-conteudo {
+  background-color: var(--cor-12);
 }

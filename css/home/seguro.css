@@ -10,7 +10,11 @@
   grid-column: 1/-1;
 }
 .seguros-conteudo h3 {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+}
+.seguros-conteudo span {
+  display: block;
+  text-align: end;
 }
 .seguros-conteudo ul,
 a {
@@ -22,18 +26,32 @@ a {
 .seguros-conteudo ul {
   margin-bottom: 20px;
 }
-.seguros-conteudo li {
-  display: flex;
-  text-align: center;
-}
 .seguros-conteudo li + li {
   margin-top: 20px;
 }
+.seguros-conteudo li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.seguros-conteudo li::before {
+  content: "";
+  width: 13px;
+  height: 9px;
+  background-image: url(../../img/icones/lista.svg);
+  position: absolute;
+  left: -21px;
+}
 .seguros-conteudo {
-  background-color: var(--cor-12);
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 20px;
   padding: 32px 32px 32px 60px;
   border-radius: 4px;
+}
+@media (max-width: 800px) {
+  .seguros-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
