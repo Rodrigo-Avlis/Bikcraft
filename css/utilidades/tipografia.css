@@ -79,16 +79,17 @@
   }
 }
 
-/* .header-menu a {
-  font: 400 1.125rem "poppins", sans-serif;
-}
 @media (max-width: 600px) {
   .header-menu a {
     font-size: 0.875rem;
   }
 }
 
-.introducao-conteudo h1 {
+/* .header-menu a {
+  font: 400 1.125rem "poppins", sans-serif;
+} */
+
+/* .introducao-conteudo h1 {
   font: 600 4rem/1.125 "poppins", sans-serif;
 }
 .introducao-conteudo p {
