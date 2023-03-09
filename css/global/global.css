@@ -9,6 +9,8 @@ p,
 span,
 ul,
 li,
+dl,
+dd,
 blockquote {
   margin: 0px;
   padding: 0px;
