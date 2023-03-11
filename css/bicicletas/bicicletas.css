@@ -71,6 +71,7 @@
     background-color: var(--cor-11);
   }
 }
+
 @media (max-width: 600px) {
   .bicicletas-lista {
     display: flex;
