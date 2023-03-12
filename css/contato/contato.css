@@ -1,5 +1,5 @@
 #contato {
-  background: linear-gradient(var(--cor-11) 600px, var(--cor-0) 0px);
+  background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0px);
 }
 .contato-container {
   display: grid;
@@ -33,10 +33,12 @@
   max-width: max-content;
   padding-left: 28px;
 }
-/* .contatos-meios a:hover,
-.contatos-endereco p:hover {
+.contato-meios a {
+  color: inherit;
+}
+.contato-meios a:hover {
   color: var(--cor-0);
-} */
+}
 .contato-meios a:first-child {
   background: url(../../img/icones/email.svg) no-repeat 0px 2px;
 }
