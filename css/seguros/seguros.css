@@ -67,4 +67,7 @@
   .vantagens-container ul {
     gap: 20px;
   }
+  #seguro .seguros-container {
+    padding-top: 0px;
+  }
 }
