@@ -1,50 +1,82 @@
-.bicicletas {
+.magic-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 40px;
   padding-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
 }
-.bicicletas h2 {
-  margin-bottom: 30px;
-}
-.bicicletas ul {
+.magic-imgs {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
-  overflow-x: scroll;
 }
-.bicicleta-lista a {
-  display: inline-block;
-  margin-bottom: 10px;
+.magic-imgs img:first-child {
+  min-width: 100%;
 }
-.bicicleta-lista img {
-  min-width: 300px;
-  margin-bottom: 12px;
+.magic-imgs img {
+  flex: 1;
+  min-width: 200px;
 }
-.bicicleta-lista h3 {
+.magic-descricao {
+  display: block;
+}
+.magic-descricao > p {
+  margin-bottom: 32px;
+}
+.magic-comprar {
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  justify-items: start;
+  gap: 8px 12px;
+  margin-bottom: 40px;
+}
+.magic-comprar a {
+  grid-row: span 2;
+}
+.magic-comprar span {
   display: flex;
   align-items: center;
-  margin-bottom: 4px;
+  background-color: var(--cor-12);
+  gap: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
 }
-.bicicleta-lista h3::before {
-  content: "";
-  display: inline-block;
-  width: 12px;
-  height: 8px;
-  background-color: var(--cor-p1);
-  transition: width 0.2s;
-  margin-right: 8px;
-  border-radius: 2px;
+.magic-descricao h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  margin-bottom: 12px;
 }
-.bicicleta-lista a:hover h3::before {
-  width: 18px;
+.magic-informacoes,
+.magic-ficha {
+  padding: 32px;
+  background-color: var(--cor-12);
+  border-radius: 4px;
 }
-.bicicleta-lista span::before {
-  content: "";
-  display: inline-block;
-  width: 12px;
-  height: 8px;
-  background-color: transparent;
-  transition: width 0.2s;
-  margin-right: 8px;
+.magic-informacoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 40px;
 }
-.bicicleta-lista a:hover span::before {
-  width: 18px;
+.magic-informacoes img {
+  width: 24px;
+  margin-bottom: 8px;
+}
+.magic-informacoes h3 {
+  margin-bottom: 8px;
+}
+.magic-ficha li {
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--cor-11);
+}
+@media (max-width: 800px) {
+  .magic-conteudo {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
