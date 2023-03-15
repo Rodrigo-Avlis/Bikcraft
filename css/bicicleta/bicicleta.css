@@ -43,6 +43,9 @@
   padding: 4px 8px;
   border-radius: 4px;
 }
+.spans span + span {
+  margin-top: 8px;
+}
 .magic-descricao h2 {
   text-transform: uppercase;
   letter-spacing: 0.015em;
@@ -84,8 +87,6 @@
 .magic-seguro-bg {
   background-color: var(--cor-11);
   box-shadow: inset 0 120px var(--cor-0), inset 0 -120px var(--cor-12);
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .magic-seguro-conteudo {
   display: grid;
@@ -93,10 +94,14 @@
   gap: 40px;
   align-items: center;
 }
-.magic-seguro-img img {
-  width: 100%;
-  height: 100% !important;
+#img-seg {
+  width: 100% !important;
+  height: 756px !important;
   object-fit: cover !important;
+}
+.magic-seguro {
+  padding-top: 180px;
+  padding-bottom: 180px;
 }
 .magic-seguro h2 {
   margin-bottom: 32px;
@@ -116,5 +121,7 @@
   }
   .magic-seguro {
     grid-row: 1;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
