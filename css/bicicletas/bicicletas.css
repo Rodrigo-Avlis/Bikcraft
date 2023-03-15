@@ -86,4 +86,11 @@
     align-self: start;
     margin-top: 20px;
   }
+  .bicicletas-lista li + li {
+    margin-top: 0px;
+  }
+  .bicicletas-lista li:nth-child(1),
+  .bicicletas-lista li:nth-child(3) {
+    margin-bottom: 8px;
+  }
 }
