@@ -76,3 +76,14 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.titulo-container {
+  background: url(../../img/dec/top-right.svg) no-repeat top right 20px;
+}
+.titulo-preco {
+  text-transform: uppercase !important;
+}
+@media (max-width: 800px) {
+  .titulo-container p {
+    text-transform: lowercase;
+  }
+}
