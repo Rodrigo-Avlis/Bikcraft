@@ -67,6 +67,7 @@
   .bicicletas-container {
     display: grid;
     grid-template-columns: 1fr;
+    background: none;
   }
   .bicicletas-container:nth-child(odd) {
     background-color: var(--cor-11);
