@@ -1,5 +1,4 @@
 const formulario = document.querySelector(".form");
-console.log(formulario);
 
 function formularioEnviado(resposta) {
   if (resposta.ok) {
