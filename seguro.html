@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./img/icones/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
   <title>Seguro | Bickraft</title>
   <meta name="description" content="Seguro | Bikcraft.">
 
@@ -15,6 +16,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -40,7 +42,7 @@
     </div>
     <div class="seguros-bg">
       <div class="seguros-container container">
-        <div class="seguros-prata">
+        <div class="seguros-prata fadeInDown" data-anime="200">
           <div class="seguros-conteudo">
             <h3 class="font-1-xl cor-6">PRATA</h3>
             <span class="font-1-xl cor-0">R$ 199<span class="font-1-xs cor-6">mensal</span></span>
@@ -53,7 +55,7 @@
             <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">inscreva-se</a>
           </div>
         </div>
-        <div class="seguros-ouro">
+        <div class="seguros-ouro fadeInDown" data-anime="400">
           <div class="seguros-conteudo">
             <h3 class="font-1-xl cor-p1">OURO</h3>
             <span class="font-1-xl cor-0">R$ 299<span class="font-1-xs cor-6">mensal</span></span>
@@ -75,32 +77,32 @@
     <div class="vantagens-container container">
       <h2 class="font-1-xxl cor-0">vantagens<span class="cor-p1">.</span></h2>
       <ul>
-        <li>
+        <li class="fadeInDown" data-anime="200">
           <img src="./img/icones/eletrica.svg" alt="icone">
           <h3 class="font-1-l cor-0">Reparo Elétrico</h3>
           <p class="font-2-s cor-5">Garantimos o reparo completo do seu motor em caso de falhas. Sabemos que falhas são raras, mas estamos aqui para caso ocorra.</p>
         </li>
-        <li>
+        <li class="fadeInDown" data-anime="200">
           <img src="./img/icones/carbono.svg" alt="icone">
           <h3 class="font-1-l cor-0">Carbono</h3>
           <p class="font-2-s cor-5">Nossos quadros são feitos para durar para sempre. Mas caso algo ocorra, ficamos felizes em reparar.</p>
         </li>
-        <li>
+        <li class="fadeInDown" data-anime="400">
           <img src="./img/icones/sustentavel.svg" alt="icone">
           <h3 class="font-1-l cor-0">Sustentável</h3>
           <p class="font-2-s cor-5">Trabalhamos com a filosofia de desperdício zero. Qualquer parte defeituosa é reciclada e reutilizada em outro projeto.</p>
         </li>
-        <li>
+        <li class="fadeInDown" data-anime="400">
           <img src="./img/icones/rastreador.svg" alt="icone">
           <h3 class="font-1-l cor-0">Rastreador</h3>
           <p class="font-2-s cor-5">Utilizamos o GPS da sua Bikcraft em conjunto com especialistas em segurança para efetuarmos a recuperação.</p>
         </li>
-        <li>
+        <li class="fadeInDown" data-anime="600">
           <img src="./img/icones/seguro.svg" alt="icone">
           <h3 class="font-1-l cor-0">Segurança</h3>
           <p class="font-2-s cor-5">Com o seguro Bikcraft você pode ficar tranquilo em saber que o seu dinheiro não será perdido em casos de roubo.</p>
         </li>
-        <li>
+        <li class="fadeInDown" data-anime="600">
           <img src="./img/icones/velocidade.svg" alt="icone">
           <h3 class="font-1-l cor-0">Rapidez</h3>
           <p class="font-2-s cor-5">A sua Bikcraft ficará pronta para uso no mesmo dia, caso você traga ela para ser reparada em uma das filiais.</p>
@@ -179,6 +181,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>;
   <script src="./js/script.js"></script>
 </body>
 

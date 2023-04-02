@@ -24,10 +24,10 @@
   width: 100%;
   text-align: left;
 }
-.perguntas-container dd {
+.js .perguntas-container dd {
   display: none;
 }
-.perguntas-container dd.ativa {
+.js .perguntas-container dd.ativa {
   display: block;
 }
 .perguntas-container dd {

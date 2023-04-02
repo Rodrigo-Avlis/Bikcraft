@@ -39,3 +39,25 @@ function eventoPerguntas(pergunta) {
 }
 
 perguntas.forEach(eventoPerguntas);
+
+//Galeria de Imagens
+const galeria = document.querySelectorAll(".magic-imgs img");
+const galeriaContainer = document.querySelector(".magic-imgs");
+
+function trocarImagem(event) {
+  const img = event.currentTarget;
+  const mediamax = matchMedia("(max-width: 930px)").matches;
+  const mediamin = matchMedia("(min-width: 801px)").matches;
+  if (mediamax !== mediamin) {
+    galeriaContainer.prepend(img);
+  }
+}
+function eventoGaleria(img) {
+  img.addEventListener("click", trocarImagem);
+}
+galeria.forEach(eventoGaleria);
+
+//Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
